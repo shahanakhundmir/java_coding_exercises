@@ -10,6 +10,7 @@ import org.junit.Test;
 public class Exercise001Test {
 
     @Test
+    
     public void checkHello() {
         Exercise001 ex001 = new Exercise001();
         assertEquals("Hello", ex001.capitalizeWord("hello"));
@@ -18,11 +19,12 @@ public class Exercise001Test {
     }
 
     @Test
+    
     public void checkHelloAlreadyUppercase() {
         Exercise001 ex001 = new Exercise001();
         assertEquals("Hello", ex001.capitalizeWord("Hello"));
     }
-
+ 
     @Test
     public void checkInitials() {
         Exercise001 ex001 = new Exercise001();
@@ -41,6 +43,7 @@ public class Exercise001Test {
     }
 
     @Test
+    
     public void checkSentenceReverse() {
         Exercise001 ex001 = new Exercise001();
         assertEquals("oof", ex001.reverse("foo"));
@@ -54,7 +57,6 @@ public class Exercise001Test {
         User u2 = new User("Paul", "Windows 95", "Windows");
         User u3 = new User("Sheila", "CentOS 7", "Linux");
         User u4 = new User("Pedro", "Ubuntu 18.04", "Linux");
-
 
         List<User> users = new ArrayList<User>();
         users.add(u1);
