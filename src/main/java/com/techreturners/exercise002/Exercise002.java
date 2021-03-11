@@ -3,20 +3,13 @@ package com.techreturners.exercise002;
 public class Exercise002 {
 
     public boolean isFromManchester(Person person) {
-        // Add your code here
-        if (person.getCity().toUpperCase().equals("MANCHESTER")){
-            return true;
-        }
-        return false;
+       
+        return person.getCity().equals("Manchester");
     }
 
-
     public boolean canWatchFilm( Person person, int ageLimit) {
-        // Add your code here
-        if (person.getAge() >= ageLimit){
-            return true;
-        }
-        return false;
+        return person.getAge() >= ageLimit;
+            
     } 
 
-} // end of class
+} 
